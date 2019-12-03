@@ -1,4 +1,8 @@
-comand        
+
+
+------------------------------------------------git useful comand-------------------------------------------------        
+
+
 
 $ git init    //git repository//folder টি কে গিট কে চিনানো 
 
@@ -92,8 +96,17 @@ $ touch .gitignore  ///ati use korle .gitignore name akta file create hbe
 .gitignore file (*.file extention ) dia dile git ignore korbe
 
 
+////////////////edit file again uploaded//////////////////////////////////
+
+$ git push origin master  //edit file again uploaded
 
 
+
+
+-------------------------------------------------------------------------------------------------------------------
+                                           Name: MD. MAHAFUZAR RAHMAN 
+                                       Daffodil international university
+                                               Department of CSE
  
 
 
