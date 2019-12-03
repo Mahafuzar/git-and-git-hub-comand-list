@@ -1,0 +1,82 @@
+comand        
+
+$ git init    //git repository//folder টি কে গিট কে চিনানো 
+
+$ git config --global user.name "which name use git account that name"  //গিট account এ নাম  create করার জন্য (সব সময় ব্যবহার করার জন্য)
+$ git config --global user.email "which email use for git"   //গিট account এ ইমেইল দেওয়ার জন্য   (সব সময় ব্যবহার করার জন্য)
+
+$ git config user.name "name"       //prithok vabe use ar jonno
+$ git config user.email  " email"   //prithok vabe use ar jonno
+
+$ git config --list    ///git a kon user name and email set kora ase ta dekhar jonno
+
+$ clear   //terminal screen ta clear korar jonno
+
+$ git status  ///untracked and recent truck file gulo dekhar jonno
+
+//////////////////////////staging area te neoar jonno nicher comand gulo////////////////////////////////////////
+
+$ git add (file name)//staging korar jonno mane file take tracked or git k chinai deoar jonno(ankta file ar jonno ati)
+
+$ git add --all or $ git add .   //ati sob file k ak sathe stage korar jonno 
+
+///////////////////////////commit korar jonno nicher comand gula///////////////////////////////////////////////
+
+$ git commit -m "ja commit korte chai ta likhte hbe akhane" //commit korar jonno
+
+$ git log     //commit id,ki ki commit koresi,time agula dekhar jonno broadly vabe
+$ git log --oneline //log shortly vabe dekhar jonno
+
+$ git checkout (commit id number) //age je obobosthay silam mane je commit ar id ta akhane use kortesi sei commit ar smoy jekhane silam sekhane back jaoar jonno
+
+$ git checkout master //last je obosthay silam sekhane back korte parbo mane master branch a back korte parbo
+
+$ git diff //present ja ase tar sathe letest change ar difference dekhar jonno
+
+$ git diff (commit id) (commit id)  //first commit id theke last je commit id use koresi tar moddhe parthokko
+
+$ git diff --staged //staged a thakte difference dekhar jonno
+
+$ git show (commit id) //commit id ar stage a ki ki change hoiasilo ta dekha jabe
+
+$ git rm (file name)  //file take git theke remove korar jonno 
+$ git reset HEAD (file name) //file take git theke delete korar jonno
+
+
+//////////////////////remote reprository or git k github ar sathe connect kora//////////////////////////////////
+github theke at first new repository create korte hbe
+
+push an existing repository from the command line //theke command copy core terminal a paste korbo then sekhane github ar user name and password chaibe seita dibo ta hole amader file github a uploaded hbe
+
+or
+
+ssh use kore kora jay aita sikhi ni
+
+
+$ git clone (github theke clone or download link nia akhane dite hbe) //file ar edit kora file shoho dowload hbe
+$ git clone (clone link) (je name download korte chassi sei name)  //nijer issa mto name download korar jonno
+
+\\\\github a kono file change korle sei change tike pc k jananor jonno fetch and pull command ta use korte hoy\\\\
+at first pc k janaite hoy change hoise fetch dia then ta pc te change korte hoy pull dia
+ 
+$ git fetch ///amra pc k jannai je github a kisu change hoise 
+$ git pull  ///pc te ja change korsi ta pc te change kore dei
+
+
+/////////////////////branch//////////////////////////////
+
+$ git branch (akta name je name branch khulte chai) ///new branch khulte
+$ git branch  ///ati dia buja jay ktota branch ase amr pc te
+$ git checkout (je branch a jete chai tar name) ///new branch a jaoar jonno
+$ git checkout -b (new branch ar name) //branch toiri abr oi branch a same time a jaoar jonno
+$ git merge (branch name --je branch ar sathe merge korbo ) //branch ar sathe merge korar jonno
+$ git -D (branch name -- je branch ti delete korte chai) //branch k delete korar jonno
+
+//////////////////////stash//////////////////////////////////
+akta temporary memory create kora jekhane se ager code gulo se rekhe deay
+
+
+
+ 
+
+
