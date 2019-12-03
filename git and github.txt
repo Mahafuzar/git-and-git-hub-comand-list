@@ -73,7 +73,14 @@ $ git merge (branch name --je branch ar sathe merge korbo ) //branch ar sathe me
 $ git -D (branch name -- je branch ti delete korte chai) //branch k delete korar jonno
 
 //////////////////////stash//////////////////////////////////
-akta temporary memory create kora jekhane se ager code gulo se rekhe deay
+akta temporary memory create kora jekhane se ager code gulo se rekhe deay ai kaj ti korte hoy untrack thaka obosthay
+
+
+$ git stash  ///ati use korle untrack obosthay file ar lekha ntun memory te save hoy and file ti faka dekha jay
+$ git stash (pop or apply)   ///ati use korle je lekha gulo stash kore new memory te giasilo segula back ase
+$ git stash list  //kto type ar code stash koresi ta janar jonno 
+$ git stash pop (id number)  //atir use kore amra kto number stash a jaite chassi sekhane jaite parbo //id number ti amra pabo ($ git stash list) comand kore array ar mto ja ase seita id number
+
 
 
 
