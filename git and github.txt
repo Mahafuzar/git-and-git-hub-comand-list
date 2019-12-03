@@ -60,7 +60,7 @@ $ git clone (clone link) (je name download korte chassi sei name)  //nijer issa 
 at first pc k janaite hoy change hoise fetch dia then ta pc te change korte hoy pull dia
  
 $ git fetch ///amra pc k jannai je github a kisu change hoise 
-$ git pull  ///pc te ja change korsi ta pc te change kore dei
+$ git pull  ///github te ja change korsi ta pc te change kore dei
 
 
 /////////////////////branch//////////////////////////////
@@ -80,6 +80,16 @@ $ git stash  ///ati use korle untrack obosthay file ar lekha ntun memory te save
 $ git stash (pop or apply)   ///ati use korle je lekha gulo stash kore new memory te giasilo segula back ase
 $ git stash list  //kto type ar code stash koresi ta janar jonno 
 $ git stash pop (id number)  //atir use kore amra kto number stash a jaite chassi sekhane jaite parbo //id number ti amra pabo ($ git stash list) comand kore array ar mto ja ase seita id number
+
+$ git clean -f  //ati dara untrack file finaly delete hoy 
+$ git clean -f -n    ///ati dara bujay je ($ git clean -f) comand ar kaj ki??
+
+
+///////////////////////////ignore file create ///////////////////////////
+
+$ touch .gitignore  ///ati use korle .gitignore name akta file create hbe 
+
+.gitignore file (*.file extention ) dia dile git ignore korbe
 
 
 
