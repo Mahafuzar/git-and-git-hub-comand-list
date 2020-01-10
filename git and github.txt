@@ -100,7 +100,12 @@ $ touch .gitignore  ///ati use korle .gitignore name akta file create hbe
 
 $ git push origin master  //edit file again uploaded
 
-
+//////////////////////////////////////////////////////////////////work///////////////////////////////////////////////
+$ git add .
+then
+$ git commit -m "any name"
+then
+$ git push origin master  //for github uploaded
 
 
 -------------------------------------------------------------------------------------------------------------------
